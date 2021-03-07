@@ -2,27 +2,28 @@
     <head><title>Detail</title></head>
     <link href="styles/common.css" rel="stylesheet"/>
     <link href="styles/detail.css" rel="stylesheet"/>
-<div>
-    <div><a href="index.html"><img class="imgStyle" alt="logo" src="assests/images/logo.png"></a>
-        <a href="login.html" target="_blank">Login</a></div>
-    <header>
-    </header>
+
+
     <body>
-        <div><img class="detail-img" src=https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg><br>
+        <header>
+            <div><a href="index.html"><img class="imgStyle" alt="logo" src="assests/images/logo.png"></a>
+                <a href="login.html" target="_blank">Login</a></div>
+            </header>
+        <div class="detail-div" ><img  class="detail-img" src=https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg><br>
             <form action="payment.html" method="GET" target="_self">
                 <label>Adults:</label>
-                <input type="number" min="1" ><br>
+                <input type="number" id="Adults" name="Adults" min="1" required ><br>
                 <label>Name:</label>
-                <input type="text"><br>
+                <input type="text" id="name" name="name" required><br>
                 <label>From Date:</label>
-                <input type="date"><br>
+                <input type="date" id="fromDate" name="fromDate" required><br>
                 <label>To Date:</label>
-                <input type="date"><br>
+                <input type="date" id="toDate" name="toDate" required><br>
                 <label>Total:</label>
                 <input type="text" readonly="readonly"><br>
                 <input type="submit" value="submit">
             </form>
-            <a href="payment.html">Book Now</a>
+            <!--<a href="payment.html">Book Now</a>-->
             <h3>Radisson Blu Hotel</h3>
             <div>Rating<br> 5 Star
             <p>Amenities</p>
@@ -35,12 +36,13 @@
             <h5>Description</h5>
             <p>Desciption of the Radisson Blu Hotel is supposed to be mentioned here.</p>
         </div></div>   
+        <footer><div><a href="contact.html" target="_blank">Contact Us</a></div>
+            <div><a href="https://www.facebook.com/" target="_blank"><img class="footerImg" src="assests/images/facebook.png"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img class="footerImg" src="assests/images/instagram.png"></a>
+                <a href="https://www.twitter.com/" target="_blank"><img class="footerImg" src="assests/images/twitter.png"></a>
+            </div>
+            <div>&#169; 2021 ROOM SEARCH PVT LTD</div></footer>
     </body>
-    <footer><div><a href="contact.html" target="_blank">Contact Us</a></div>
-        <div><a href="https://www.facebook.com/" target="_blank"><img class="footerImg" src="assests/images/facebook.png"></a>
-            <a href="https://www.instagram.com/" target="_blank"><img class="footerImg" src="assests/images/instagram.png"></a>
-            <a href="https://www.twitter.com/" target="_blank"><img class="footerImg" src="assests/images/twitter.png"></a>
-        </div>
-        <div>&#169; 2021 ROOM SEARCH PVT LTD</div></footer>
-</div>
+
+
 </html>

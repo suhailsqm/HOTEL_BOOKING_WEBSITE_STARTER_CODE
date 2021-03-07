@@ -1,4 +1,9 @@
 .list-img {
-    height: 250px;
+    height: 200px;
     width: 250px;
+}
+
+.hotel-list-view {
+    width: 40%;
+    background-color: rgb(132, 136, 139);
 }

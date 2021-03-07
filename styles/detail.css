@@ -1,4 +1,11 @@
 .detail-img {
     height: 500px;
     width: 500px;
+
+}
+
+.detail-div {
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
 }
