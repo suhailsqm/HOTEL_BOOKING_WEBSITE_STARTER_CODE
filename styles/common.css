@@ -1,0 +1,14 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.imgStyle {
+    height: 60px;
+    width: 60px;
+}
+
+.footerImg {
+    height: 20px;
+    width: 22px;
+}
