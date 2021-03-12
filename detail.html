@@ -5,10 +5,9 @@
 
 
     <body>
-        <header>
-            <div><a href="index.html"><img class="imgStyle" alt="logo" src="assests/images/logo.png"></a>
-                <a href="login.html" target="_blank">Login</a></div>
-            </header>
+        <header><a href="index.html"><img class="imgStyle" alt="logo" src="assests/images/logo.png"></a>
+            <a class="loginStyle" href="login.html" target="_blank">Login</a>
+        </header>
         <div class="detail-div" ><img  class="detail-img" src=https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg><br>
             <form action="payment.html" method="GET" target="_self">
                 <label>Adults:</label>
@@ -21,7 +20,7 @@
                 <input type="date" id="toDate" name="toDate" required><br>
                 <label>Total:</label>
                 <input type="text" readonly="readonly"><br>
-                <input type="submit" value="submit">
+                <input type="submit" value="Book Now">
             </form>
             <!--<a href="payment.html">Book Now</a>-->
             <h3>Radisson Blu Hotel</h3>
@@ -36,12 +35,16 @@
             <h5>Description</h5>
             <p>Desciption of the Radisson Blu Hotel is supposed to be mentioned here.</p>
         </div></div>   
-        <footer><div><a href="contact.html" target="_blank">Contact Us</a></div>
-            <div><a href="https://www.facebook.com/" target="_blank"><img class="footerImg" src="assests/images/facebook.png"></a>
-                <a href="https://www.instagram.com/" target="_blank"><img class="footerImg" src="assests/images/instagram.png"></a>
+        <footer>
+            <div><a href="contact.html" target="_self" id="contactStyle">Contact Us</a></div>
+            <div id="iconStyle"><a href="https://www.facebook.com/" target="_blank"><img class="footerImg"
+                        src="assests/images/facebook.png"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img class="footerImg"
+                        src="assests/images/instagram.png"></a>
                 <a href="https://www.twitter.com/" target="_blank"><img class="footerImg" src="assests/images/twitter.png"></a>
             </div>
-            <div>&#169; 2021 ROOM SEARCH PVT LTD</div></footer>
+            <div id="copyrightStyle">&#169; 2020 ROOM SEARCH PVT LTD</div>
+        </footer>
     </body>
 
 

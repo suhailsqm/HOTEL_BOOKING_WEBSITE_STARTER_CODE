@@ -2,20 +2,83 @@ html, body {
     height: 100%;
     width: 100%;
     margin: 0%;
+    background-color: #e0e0e0;
+    font-family: 'Ubuntu',sans-serif;
 }
 
 .imgStyle {
     height: 60px;
     width: 60px;
+    margin: auto;
+    margin-left: 2%;
 }
+
+.loginStyle{
+    right: 0%;
+    margin-top: 20px;
+    margin-right: 1%;
+    text-decoration: none;
+    position: absolute;
+    color: black;
+  }
 
 .footerImg {
     height: 20px;
     width: 22px;
+    text-decoration: none
 }
-header, footer {
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    background-color:rosybrown;
+    position: fixed;
+    width:100%;
+    top: 0;
+    z-index: 80;
+
+}
+
+footer {
     background-color: rosybrown;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    height: 60px;
+    z-index: 80;
 }
 body {
     background-color: #e0e0e0;
 }
+
+#contactStyle{
+    /*bottom:32%;*/
+    /*margin-left: 1%;*/
+    margin: 20px;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: center;
+    float: left;
+    color: black;
+  }
+  
+  #iconStyle{
+     right:1%;
+     align-items: center;
+     vertical-align: center;
+     text-align: center;
+     /*bottom:32%;*/
+     float: right;
+     margin: 20px;
+  }
+   
+  #copyrightStyle{
+    font-size: 10px;
+    text-align: center;
+    bottom: 0;
+    left: center;
+    vertical-align: bottom;
+    margin: 40px;
+  }  

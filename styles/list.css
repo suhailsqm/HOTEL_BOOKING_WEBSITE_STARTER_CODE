@@ -1,3 +1,7 @@
+#container{
+    display: grid;
+}
+
 .list-img {
     height: 200px;
     width: 250px;
@@ -5,5 +9,30 @@
 
 .hotel-list-view {
     width: 40%;
+    margin: 4%;
     background-color: rgb(132, 136, 139);
+    float: left;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 4%;
+}
+.viewSty{
+    font-weight: bold;
+    text-decoration: none; 
+    color:black
+  }
+  
+.imagesView{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+ }
+ #map-view {
+     display: none;
+
+ }  
+ #list{
+    scroll-behavior: smooth;
+    
 }
