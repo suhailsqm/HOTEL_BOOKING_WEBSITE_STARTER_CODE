@@ -1,9 +1,4 @@
-.imgPlace {
-    height: 150px;
-    width: 150px;
-    padding: 4%;
-    border-radius: 25%;
-}
+
 .body {
     display: flex;
     flex-direction: column;
@@ -27,36 +22,90 @@
     width: 25%;
     border: 1px solid transparent;
     background-color: #f1f1f1;
+    outline: none;
     padding : 10px;
     font-size: 16px;
     border-radius: 12px;
     text-align: start
 }
-
-.view-class {
-    text-align: center;
-    text-decoration: none;
-}
-
-#list-view {
-    scroll-behavior: smooth;
-}
-
-#map-view {
-    scroll-behavior: smooth;
-}
-
 .city-cards {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
-    justify-content: center;
-    margin-left: 15%;
-    margin-right: 15%;
+    justify-content: space-evenly;
+    /*margin-left: 15%;
+    margin-right: 15%;*/
+    position: relative;
+}
+.imgPlace {
+    height: 150px;
+    width: 150px;
+    /*padding: 4%;*/
+    border-radius: 25%;
+    box-shadow: 10px 10px 10px grey;
 }
 
+.imgPlace:hover {
+    filter: brightness(50%);
+}
+.text1Sty{
+    position: absolute;
+    top:50%;
+    bottom: 50%;
+    transform: translate(50%, 50%);
+    color: #f1f1f1;
+    visibility:hidden;
+  }
+  .text2Sty{
+    position: absolute;
+    top:50%;
+    bottom: 50%;
+    transform: translate(50%, 50%);
+    color: #f1f1f1; 
+    visibility: hidden;
+  }
+  .text3Sty{
+    position: absolute;
+    top:50%;
+    bottom: 50%;
+    transform: translate(50%, 50%);
+    color: #f1f1f1;
+    visibility: hidden;
+  }
+.text4Sty{
+    position: absolute;
+    top:50%;
+    bottom: 50%;
+    transform: translate(50%, 50%);
+    color: #f1f1f1;
+    visibility: hidden;
+}
 
+.imgPlace:hover + .text1Sty {
+    visibility: visible;
+}
+
+.imgPlace:hover + .text2Sty {
+    visibility: visible;
+}
+
+.imgPlace:hover + .text3Sty {
+    visibility: visible;
+}
+
+.imgPlace:hover + .text4Sty {
+    visibility: visible;
+}
+.view-class {
+    text-align: center;
+    text-decoration: none;
+}
+/*
+
+*/
+
+/*
 .loginStyle{
     right: 0%;
     margin-top: 20px;
@@ -65,3 +114,4 @@
     position: absolute;
     color: black;
   }
+  */

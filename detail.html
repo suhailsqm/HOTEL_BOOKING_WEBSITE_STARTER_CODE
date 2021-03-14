@@ -1,51 +1,92 @@
 <html>
-    <head><title>Detail</title></head>
-    <link href="styles/common.css" rel="stylesheet"/>
-    <link href="styles/detail.css" rel="stylesheet"/>
+
+<head>
+    <title>Detail</title>
+</head>
+<link href="styles/common.css" rel="stylesheet" />
+<link href="styles/detail.css" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet" />
 
 
-    <body>
-        <header><a href="index.html"><img class="imgStyle" alt="logo" src="assests/images/logo.png"></a>
-            <a class="loginStyle" href="login.html" target="_blank">Login</a>
-        </header>
-        <div class="detail-div" ><img  class="detail-img" src=https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg><br>
-            <form action="payment.html" method="GET" target="_self">
-                <label>Adults:</label>
-                <input type="number" id="Adults" name="Adults" min="1" required ><br>
-                <label>Name:</label>
-                <input type="text" id="name" name="name" required><br>
-                <label>From Date:</label>
-                <input type="date" id="fromDate" name="fromDate" required><br>
-                <label>To Date:</label>
-                <input type="date" id="toDate" name="toDate" required><br>
-                <label>Total:</label>
-                <input type="text" readonly="readonly"><br>
-                <input type="submit" value="Book Now">
+<body>
+    <header><a href="index.html"><img class="imgStyle" alt="logo" src="assests/images/logo.png"></a>
+        <a class="loginStyle" href="login.html" target="_blank">Login</a>
+    </header>
+    <div class="mainDiv">
+        <div class="detail-div"><img class="detail-img"
+                src=https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg><br>
+        </div>
+        <div class="formDiv">
+            <form style="display:flex; justify-content:space-around; flex-direction: column;" action="payment.html"
+                method="GET" target="_self" autocomplete="off">
+                <ul style="list-style-type: none;">
+                    <li class="listSty">
+                        <label class="labelSty" for="adults">Adults:</label>
+                        <input class="inputSty" type="number" id="adults" min="1" name="adults" required></br>
+                    </li>
+    
+                    <li class="listSty">
+                        <label class="labelSty" for="name">Name: </label>
+                        <input class="inputSty" type="text" id="name" name="name" required /></br>
+                    </li>
+    
+                    <li class="listSty">
+                        <label class="labelSty" for="fromDate">From Date:</label>
+                        <input class="inputSty" type="date" id="fromDate" name="fromDate" required /></br>
+                    </li>
+    
+                    <li class="listSty">
+                        <label class="labelSty" for="toDate">To Date:</label>
+                        <input class="inputSty" type="date" id="toDate" name="toDate" required /></br>
+                    </li>
+    
+    
+                    <li class="listSty">
+                        <label class="labelSty" for="total">Total:</label>
+                        <input class="inputSty" type="number" id="total" name="total" required disabled></br>
+                    </li>
+    
+                    <li style="display: flex; padding: 1em; justify-content: center;">
+                        <a href="payment.html" target="_self">
+                            <button style="padding:10px" id="bookNow">Book Now</button> </a>
+                    </li>
+                </ul>
+    
             </form>
-            <!--<a href="payment.html">Book Now</a>-->
-            <h3>Radisson Blu Hotel</h3>
-            <div>Rating<br> 5 Star
-            <p>Amenities</p>
+        </div>
+    </div>
+    <!--<a href="payment.html">Book Now</a>-->
+    <div style="margin-left: 4%; margin-right: 4%; margin-top: 1%; margin-bottom: 7%; font-family: ubuntu;">
+        <h3>Radisson Blu Hotel</h3>
+        <div>Rating<br> 5 Star
+            <b>
+                <p>Amenities</p>
+            </b>
             <ul>
-            <li>Room service</li>
-            <li>Restaurant</li>
-            <li>Business center</li>
-            <li>Fitness center</li>
-            <li>Pool</li></ul>
+                <li>Room service</li>
+                <li>Restaurant</li>
+                <li>Business center</li>
+                <li>Fitness center</li>
+                <li>Pool</li>
+            </ul>
             <h5>Description</h5>
             <p>Desciption of the Radisson Blu Hotel is supposed to be mentioned here.</p>
-        </div></div>   
-        <footer>
-            <div><a href="contact.html" target="_self" id="contactStyle">Contact Us</a></div>
-            <div id="iconStyle"><a href="https://www.facebook.com/" target="_blank"><img class="footerImg"
-                        src="assests/images/facebook.png"></a>
-                <a href="https://www.instagram.com/" target="_blank"><img class="footerImg"
-                        src="assests/images/instagram.png"></a>
-                <a href="https://www.twitter.com/" target="_blank"><img class="footerImg" src="assests/images/twitter.png"></a>
-            </div>
-            <div id="copyrightStyle">&#169; 2020 ROOM SEARCH PVT LTD</div>
-        </footer>
-    </body>
+        </div>
+    </div>
+    
+    </div>
+    <footer>
+        <div><a href="contact.html" target="_self" id="contactStyle">Contact Us</a></div>
+        <div id="iconStyle"><a href="https://www.facebook.com/" target="_blank"><img class="footerImg"
+                    src="assests/images/facebook.png"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img class="footerImg"
+                    src="assests/images/instagram.png"></a>
+            <a href="https://www.twitter.com/" target="_blank"><img class="footerImg"
+                    src="assests/images/twitter.png"></a>
+        </div>
+        <div id="copyrightStyle">&#169; 2020 ROOM SEARCH PVT LTD</div>
+    </footer>
+</body>
 
 
 </html>

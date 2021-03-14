@@ -2,6 +2,13 @@
     display: grid;
 }
 
+#list-view {
+    scroll-behavior: smooth;
+}
+
+#map-view {
+    scroll-behavior: smooth;
+}
 .list-img {
     height: 200px;
     width: 250px;
