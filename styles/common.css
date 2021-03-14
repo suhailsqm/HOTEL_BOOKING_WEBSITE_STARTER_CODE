@@ -55,9 +55,9 @@ body {
     background-color: #e0e0e0;
 }
 
-#contactStyle{
-    /*bottom:32%;*/
-    /*margin-left: 1%;*/
+#contactStyle {
+    bottom:32%;
+    margin-left: 8%;
     margin: 20px;
     text-decoration: none;
     text-align: center;
@@ -90,13 +90,13 @@ body {
      margin: 20px;
   }
    */
-  #copyrightStyle{
+  #copyrightStyle {
     font-size: 10px;
     text-align:center;
     bottom: 0;
-    left: 40%;
+    left: 50%;
     vertical-align: bottom;
     margin: 40px;
-    margin-left: 32%;
+    margin-left: 10%;
   }  
   
