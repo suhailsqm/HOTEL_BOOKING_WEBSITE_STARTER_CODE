@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
 <body>
@@ -20,8 +21,41 @@
     </header>
     <div style="background-color:#e0e0e0 ; height: 100vh;">
         <div class="mainDiv">
-            <div class="detail-div"><img class="detail-img"
-                    src=https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg><br>
+            <div class="detail-div">
+                <div id="carouselExampleControls" class="carousel row" data-ride="carousel">
+                    <div class="col-sm-1">
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button"
+                            data-slide="prev">
+                            <span class="prev-icon" aria-hidden="true"
+                                style="background-size: 259% 500% !important; color: rosybrown !"></span>
+
+                        </a>
+                    </div>
+                    <div class="carousel-inner col-sm-10">
+                        <div class="carousel-item active">
+                            <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
+                                class="d-block" alt="..." height="320px" width="500px">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://media-cdn.tripadvisor.com/media/photo-o/01/fa/51/70/r-the-spa.jpg"
+                                class="d-block" alt="..." height="320px" width="500px">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://media-cdn.tripadvisor.com/media/photo-w/0e/b2/64/3f/radisson-blu-plaza-delhi.jpg"
+                                class="d-block" alt="..." height="320px" width="500px">
+                        </div>
+                    </div>
+
+
+                    <div class="col-sm-1">
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button"
+                            data-slide="next">
+                            <span class="next-icon" aria-hidden="true"
+                                style="background-size: 259% 100% !important"></span>
+                        </a>
+                    </div>
+
+                </div>
             </div>
             <div class="formDiv">
                 <form style="display:flex; justify-content:space-around; flex-direction: column;" action="payment.html"
@@ -66,27 +100,35 @@
         <!--<a href="payment.html">Book Now</a>-->
         <div style="margin-left: 4%; margin-right: 4%; margin-top: 1%; margin-bottom: 7%; font-family: ubuntu;">
             <h3>Radisson Blu Hotel</h3>
-            <div>Rating<br> 5 Star
-                <b>
-                    <p>Amenities</p>
-                </b>
-                <ul>
-                    <li>Room service</li>
-                    <li>Restaurant</li>
-                    <li>Business center</li>
-                    <li>Fitness center</li>
-                    <li>Pool</li>
-                </ul>
-                <h5>Description</h5>
-                <p>Desciption of the Radisson Blu Hotel is supposed to be mentioned here.</p>
-            </div>
-        </div>
+            <span style="font-family:cursive;">
+                RATING </br>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
 
-    </div>
+            </span> </br>
+            <b>
+                <p>Amenities</p>
+            </b>
+            <ul>
+                <li>Room service</li>
+                <li>Restaurant</li>
+                <li>Business center</li>
+                <li>Fitness center</li>
+                <li>Pool</li>
+            </ul>
+            <h5>Description</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipising elit. Deleniti, illum totam magni volupatibus libero
+                delectus nesciunt hie vel! Aperiam esse asperiores culpa, natus quam quis eum ex doloremque doloribus
+                architecto!</p>
+        </div>
     </div>
     <footer>
-        <div><span id="contactStyle"><button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#example-modal-signup" id="sign-up-button" >Contact Us</button>
-        </span></div>
+        <div><span id="contactStyle"><button type="button" class="btn btn-info btn-sm" data-toggle="modal"
+                    data-target="#example-modal-signup" id="sign-up-button">Contact Us</button>
+            </span></div>
         <div id="iconStyle"><a href="https://www.facebook.com/" target="_blank"><img class="footerImg"
                     src="assests/images/facebook.png"></a>
             <a href="https://www.instagram.com/" target="_blank"><img class="footerImg"

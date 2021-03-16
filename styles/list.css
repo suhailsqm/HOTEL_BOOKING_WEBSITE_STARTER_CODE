@@ -44,6 +44,9 @@
 
  }  
  #list{
-    scroll-behavior: smooth;
-    
+    scroll-behavior: smooth;   
 }
+
+.checked {
+    color: orange;
+  }
