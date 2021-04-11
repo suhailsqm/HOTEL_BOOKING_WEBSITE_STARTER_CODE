@@ -14,11 +14,12 @@
 
 
 <body>
-    <header><a href="index.html"><img class="imgStyle" alt="logo" src="assests/images/logo.png"></a>
+    <header id="header">
+        <!-- <a href="index.html"><img class="imgStyle" alt="logo" src="assests/images/logo.png"></a>
         <span class="loginStyle">
             <button type="button" class="btn btn-light btn-sm" data-toggle="modal" data-target="#login"
                 id="login-button" style="padding: -0.625rem .75rem;">LOGIN</button>
-        </span><br />
+        </span><br /> -->
     </header>
     <div class="body" style="overflow: auto;display: flex;flex-direction: column;">
         <div style="margin-top:7%;font-weight: bold; text-decoration: none;">
@@ -86,8 +87,8 @@
             </div>
         </div>
     </div>
-    <footer>
-        <div><span id="contactStyle"><button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#example-modal-signup" id="sign-up-button" >Contact Us</button>
+    <footer id="footer">
+        <!-- <div><span id="contactStyle"><button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#example-modal-signup" id="sign-up-button" >Contact Us</button>
         </span></div>
         <div id="iconStyle"><a href="https://www.facebook.com/" target="_blank"><img class="footerImg"
                     src="assests/images/facebook.png"></a>
@@ -96,10 +97,10 @@
             <a href="https://www.twitter.com/" target="_blank"><img class="footerImg"
                     src="assests/images/twitter.png"></a>
         </div>
-        <div id="copyrightStyle">&#169; 2020 ROOM SEARCH PVT LTD</div>
+        <div id="copyrightStyle">&#169; 2020 ROOM SEARCH PVT LTD</div> -->
     </footer>
     <!--login-->
-    <div class="modal" tabindex="-1" role="dialog" id="login">
+    <!-- <div class="modal" tabindex="-1" role="dialog" id="login">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -128,10 +129,10 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!--contact modal-->
-    <div class="modal" tabindex="-1" role="dialog" id="example-modal-signup">
+    <!-- <div class="modal" tabindex="-1" role="dialog" id="example-modal-signup">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -156,7 +157,13 @@
                 </div>
             </div>
         </div>
+    </div> -->
+
+    <div id="loginAndContact">
+        
     </div>
+    <script src="scripts/common.js"></script>
+    <script src="scripts/list.js"></script>  
 </body>
 
 
